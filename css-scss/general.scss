@@ -1,0 +1,17 @@
+@import "./partials/functions", "./partials/mixins", "./partials/variables";
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  place-content: center;
+}
+
+.extra-light {
+  font-weight: 200;
+}

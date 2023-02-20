@@ -1,0 +1,13 @@
+// @import "./partials/functions", "./partials/mixins", "./partials/variables";
+
+.header_container {
+  color: $color-neutral-very-dark-blue;
+}
+
+.header_container_heading {
+  @include font-header-heading;
+}
+
+.header_container_text {
+  @include font-header-text;
+}

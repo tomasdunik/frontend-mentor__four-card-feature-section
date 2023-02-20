@@ -1,0 +1,27 @@
+@mixin font-header-heading {
+  font-size: rem(24, 16);
+  font-weight: 600;
+  letter-spacing: em(24, 0.17);
+  line-height: lineHeight(36, 24);
+  text-align: center;
+}
+
+@mixin font-header-text {
+  font-size: rem(15, 16);
+  font-weight: 400;
+  line-height: lineHeight(25, 15);
+  line-height: 25px;
+  opacity: 50%;
+  text-align: center;
+}
+
+@mixin font-box-heading {
+  font-size: rem(20, 16);
+  font-weight: 600;
+  letter-spacing: em(24, 0.17);
+  line-height: lineHeight(36, 24);
+  text-align: center;
+}
+
+@mixin font-box-text {
+}

@@ -1,0 +1,20 @@
+.header_container {
+  color: #4c4e61;
+}
+
+.header_container_heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.0070833333em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.header_container_text {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  line-height: 25px;
+  opacity: 50%;
+  text-align: center;
+}/*# sourceMappingURL=header.css.map */
