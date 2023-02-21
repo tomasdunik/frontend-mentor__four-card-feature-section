@@ -1,11 +1,32 @@
-// @import "./partials/functions", "./partials/mixins", "./partials/variables";
+@import "./partials/functions", "./partials/mixins", "./partials/variables";
 
-.header_container {
-  color: $color-neutral-very-dark-blue;
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: rem(75, 16);
+  margin-top: rem(84, 16);
+  width: rem(311, 16);
+}
+
+@media (min-width: 1010px) {
+  .header {
+    margin-bottom: rem(71, 16);
+    margin-top: rem(92, 16);
+    width: rem(540, 16);
+  }
 }
 
 .header_container_heading {
   @include font-header-heading;
+}
+
+@media (min-width: 1010px) {
+  .header_container_heading {
+    font-size: rem(36, 16);
+    letter-spacing: em(36, 0.25);
+    line-height: lineHeight(56, 36);
+  }
 }
 
 .header_container_text {

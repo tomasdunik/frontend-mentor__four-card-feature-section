@@ -26,43 +26,62 @@
     <!-- ==================== CSS ==================== -->
     <link rel="stylesheet" href="./css-scss/general.css" />
     <link rel="stylesheet" href="./css-scss/header.css" />
-    <link rel="stylesheet" href="./css-scss/boxes.css" />
+    <link rel="stylesheet" href="./css-scss/main.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <section class="header_container">
         <h1 class="header_container_heading">
-          <span class="extra-light">Reliable, efficient delivery</span>
-          Powered by Technology
+          <span class="extra-light">Spoľahlivo a efektívne</span>
+          Poháňané Technology
         </h1>
       </section>
       <div class="header_container_text">
         <p>
-          Our Artificial Intelligence powered tools use millions of project data
-          points to ensure that your project is successful
+          Náš nástroj Technology využíva milióny projektových údajov, aby sme sa
+          uistili, že váš projekt bude úspešný
         </p>
       </div>
     </header>
 
-    <main>
-      <section class="box">
-        <h3>Supervisor</h3>
-        <p>Monitors activity to identify project roadblocks</p>
-      </section>
-      <section class="box">
-        <h3>Team Builder</h3>
-        <p>
-          Scans our talent network to create the optimal team for your project
-        </p>
-      </section>
-      <section class="box">
-        <h3>Karma</h3>
-        <p>Regularly evaluates our talent to ensure quality</p>
-      </section>
-      <section class="box">
-        <h3>Calculator</h3>
-        <p>Uses data from past projects to provide better delivery estimates</p>
-      </section>
+    <main class="main">
+      <div class="main_first-column">
+        <section class="box cyan">
+          <h3 class="box_heading">Dozor</h3>
+          <p class="box_text">
+            Monitorujeme aktivitu s cieľom identifikovať prekážky projektu
+          </p>
+          <img class="box_img" src="./images/icon-supervisor.svg" alt="" />
+        </section>
+      </div>
+      <div class="main_second-column">
+        <section class="box red">
+          <h3 class="box_heading">Tvorba teamu</h3>
+          <p class="box_text">
+            Prehľadávame našu sieť talentov a vytvorí optimálny tím pre váš
+            projekt
+          </p>
+          <img class="box_img" src="./images/icon-team-builder.svg" alt="" />
+        </section>
+        <section class="box orange">
+          <h3 class="box_heading">Nápad</h3>
+          <p class="box_text">
+            Pravidelne hodnotíme naše nápady, aby sme zaistili kvalitu
+          </p>
+          <img class="box_img" src="./images/icon-karma.svg" alt="" />
+        </section>
+      </div>
+      <div class="main_third-column">
+        <section class="box blue">
+          <h3 class="box_heading">Kalkulačka</h3>
+          <p class="box_text">
+            Používame údaje z minulých projektov na lepšie odhady
+          </p>
+          <div class="flexbox">
+            <img class="box_img" src="./images/icon-calculator.svg" alt="" />
+          </div>
+        </section>
+      </div>
     </main>
   </body>
 </html>

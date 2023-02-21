@@ -3,11 +3,14 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  color: #4c4e61;
 }
 
 body {
+  background-color: #fafafa;
   display: grid;
   place-content: center;
+  justify-items: center;
 }
 
 .extra-light {
