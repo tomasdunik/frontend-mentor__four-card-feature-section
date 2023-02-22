@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="sk">
   <head>
+    <!-- ———————————————————— METADATA ———————————————————— -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- ==================== Title ==================== -->
+    <!-- ———————————————————— TITLE ———————————————————— -->
     <title>Frontend Mentor | Four card feature section</title>
 
-    <!-- ==================== Icon ==================== -->
+    <!-- ———————————————————— FAVICON ———————————————————— -->
+
     <link
       rel="icon"
       type="image/png"
@@ -15,7 +17,7 @@
       href="./images/favicon-32x32.png"
     />
 
-    <!-- ==================== Google fonts ==================== -->
+    <!-- ———————————————————— FONTS ———————————————————— -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,12 +25,14 @@
       rel="stylesheet"
     />
 
-    <!-- ==================== CSS ==================== -->
+    <!-- ———————————————————— CSS ———————————————————— -->
     <link rel="stylesheet" href="./css-scss/general.css" />
     <link rel="stylesheet" href="./css-scss/header.css" />
     <link rel="stylesheet" href="./css-scss/main.css" />
   </head>
+
   <body>
+    <!-- -------------------- Header -------------------- -->
     <header class="header">
       <section class="header_container">
         <h1 class="header_container_heading">
@@ -44,6 +48,7 @@
       </div>
     </header>
 
+    <!-- -------------------- Main -------------------- -->
     <main class="main">
       <div class="main_first-column">
         <section class="box cyan">
@@ -51,7 +56,11 @@
           <p class="box_text">
             Monitorujeme aktivitu s cieľom identifikovať prekážky projektu
           </p>
-          <img class="box_img" src="./images/icon-supervisor.svg" alt="" />
+          <img
+            class="box_img"
+            src="./images/icon-supervisor.svg"
+            alt="ikona dozor"
+          />
         </section>
       </div>
       <div class="main_second-column">
@@ -61,24 +70,36 @@
             Prehľadávame našu sieť talentov a vytvorí optimálny tím pre váš
             projekt
           </p>
-          <img class="box_img" src="./images/icon-team-builder.svg" alt="" />
+          <img
+            class="box_img"
+            src="./images/icon-team-builder.svg"
+            alt="ikona tvorba teamu"
+          />
         </section>
         <section class="box orange">
           <h3 class="box_heading">Nápad</h3>
           <p class="box_text">
             Pravidelne hodnotíme naše nápady, aby sme zaistili kvalitu
           </p>
-          <img class="box_img" src="./images/icon-karma.svg" alt="" />
+          <img
+            class="box_img"
+            src="./images/icon-karma.svg"
+            alt="ikona nápad"
+          />
         </section>
       </div>
       <div class="main_third-column">
         <section class="box blue">
-          <h3 class="box_heading">Kalkulačka</h3>
+          <h3 class="box_heading">Údaje</h3>
           <p class="box_text">
             Používame údaje z minulých projektov na lepšie odhady
           </p>
           <div class="flexbox">
-            <img class="box_img" src="./images/icon-calculator.svg" alt="" />
+            <img
+              class="box_img"
+              src="./images/icon-calculator.svg"
+              alt="ikona údaje"
+            />
           </div>
         </section>
       </div>
