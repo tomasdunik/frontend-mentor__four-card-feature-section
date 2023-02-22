@@ -1,4 +1,4 @@
-@import "./partials/functions", "./partials/mixins", "./partials/variables";
+@import "./partials/variables", "./partials/functions", "./partials/mixins";
 
 .box {
   background-color: #fff;
@@ -44,6 +44,9 @@
   margin-top: rem(25, 16);
 }
 
+// ====================================================
+// ==================== RESPONSIVE ====================
+// ====================================================
 @media (min-width: 1010px) {
   .main {
     display: flex;
