@@ -1,20 +1,21 @@
-@import "./partials/functions", "./partials/mixins", "./partials/variables";
+@import "./partials/variables";
 
 * {
   box-sizing: border-box;
+  color: $color-neutral-very-dark-blue;
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  color: $color-neutral-very-dark-blue;
 }
 
 body {
   background-color: $color-neutral-very-light-grey;
   display: grid;
-  place-content: center;
   justify-items: center;
+  place-content: center;
 }
 
+// ==================== Additional ====================
 .extra-light {
   font-weight: 200;
 }
