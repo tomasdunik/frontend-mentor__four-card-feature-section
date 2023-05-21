@@ -16,7 +16,7 @@ Projekt som vytvoril do 4 hodín (čas od stiahnutia projektu až po jeho finál
 
 - HTML
 - CSS
-- Sass
+- SCSS
 - Mobile First
 
 ## 📸 Screenshots
